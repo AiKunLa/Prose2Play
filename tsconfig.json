@@ -1,0 +1,14 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./apps/api" },
+    { "path": "./apps/web" },
+    { "path": "./apps/worker" },
+    { "path": "./packages/config" },
+    { "path": "./packages/domain" },
+    { "path": "./packages/pipeline" },
+    { "path": "./packages/providers" },
+    { "path": "./packages/schema" },
+    { "path": "./packages/shared" }
+  ]
+}

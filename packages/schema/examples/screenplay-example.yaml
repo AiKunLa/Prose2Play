@@ -1,0 +1,129 @@
+schema_version: "1.0"
+script:
+  id: "script_red_curtain_ep01"
+  title: "红帘之后"
+  language: "zh-CN"
+  format: "short_drama"
+  genre: ["悬疑", "情感"]
+  logline: "失踪姐姐留下的一把旧钥匙，让林晚重新走进那栋她发誓不再回去的宅子。"
+  target_duration_minutes: 18
+  created_at: "2026-06-05T10:00:00+08:00"
+source:
+  work_title: "红帘之后"
+  author: "示例作者"
+  language: "zh-CN"
+  chapter_range:
+    start: 1
+    end: 3
+  chapters:
+    - number: 1
+      title: "钥匙"
+      summary: "林晚收到姐姐遗物中的旧钥匙。"
+      word_count: 3120
+    - number: 2
+      title: "旧宅"
+      summary: "林晚回到旧宅，遇见守宅人。"
+      word_count: 3480
+    - number: 3
+      title: "红帘"
+      summary: "林晚在红帘后发现姐姐留下的录音。"
+      word_count: 3290
+adaptation:
+  mode: "drama_first"
+  compression_ratio: 0.42
+  strategy_summary: "保留寻找姐姐线索的主线，压缩内心独白，提升外部冲突和对白密度。"
+  kept_threads:
+    - "林晚寻找姐姐失踪真相"
+    - "旧宅背后的家族秘密"
+  merged_events:
+    - "将第二章入宅和第三章前半段阻拦合并为同一场冲突戏"
+  omitted_elements:
+    - "部分关于旧宅历史的长篇叙述"
+  added_bridges:
+    - "通过周伯的提前阻拦增强进入秘密前的门槛感"
+characters:
+  - id: "char_linwan"
+    name: "林晚"
+    aliases: ["晚晚"]
+    role: "protagonist"
+    description: "外冷内敏感的年轻作家。"
+    motivation: "查清姐姐失踪前在旧宅留下了什么。"
+    arc_notes: "从逃避旧宅到主动直面家族秘密。"
+  - id: "char_keeper"
+    name: "周伯"
+    role: "supporting"
+    description: "守着旧宅多年的老人。"
+    motivation: "阻止林晚重启旧事。"
+locations:
+  - id: "loc_apartment"
+    name: "林晚公寓"
+    type: "home"
+    description: "狭小、安静，堆满未整理的书稿和纸箱。"
+  - id: "loc_old_house"
+    name: "旧宅前厅"
+    type: "mansion"
+    description: "潮湿阴冷，墙上旧画框歪斜，空气里有灰尘味。"
+props:
+  - id: "prop_key"
+    name: "旧钥匙"
+    story_function: "线索"
+scenes:
+  - id: "scene_001"
+    number: 1
+    act: 1
+    title: "钥匙出现"
+    slugline:
+      interiority: "INT"
+      location_id: "loc_apartment"
+      time_of_day: "NIGHT"
+    summary: "林晚在姐姐遗物中发现一把陌生的旧钥匙，决定回旧宅。"
+    dramatic_purpose: "建立悬念并给出行动动机。"
+    cast: ["char_linwan"]
+    props: ["prop_key"]
+    source_refs:
+      - chapter: 1
+        importance: "primary"
+    content:
+      - type: "action"
+        text: "雨声敲着窗。林晚把纸箱里的旧信件一封封取出，直到一把生锈的钥匙滚落在桌面。"
+      - type: "action"
+        text: "她愣住，认出钥匙柄上那道刻痕，和姐姐常画在手账上的记号一模一样。"
+      - type: "dialogue"
+        character_id: "char_linwan"
+        emotion: "压抑"
+        text: "姐，你到底把什么留在那儿了？"
+  - id: "scene_002"
+    number: 2
+    act: 1
+    title: "重返旧宅"
+    slugline:
+      interiority: "INT"
+      location_id: "loc_old_house"
+      time_of_day: "NIGHT"
+    summary: "林晚回到旧宅，周伯试图阻止她继续往里走。"
+    dramatic_purpose: "制造人物对抗，推动进入核心秘密。"
+    cast: ["char_linwan", "char_keeper"]
+    source_refs:
+      - chapter: 2
+        importance: "primary"
+      - chapter: 3
+        importance: "secondary"
+        note: "提前引入周伯的阻拦，增强戏剧张力。"
+    adaptation_notes:
+      - "将原文中的守宅人旁观描写改为正面冲突对白。"
+    content:
+      - type: "action"
+        text: "门轴发出沉重的呻吟。周伯站在前厅尽头，像早就知道她会来。"
+      - type: "dialogue"
+        character_id: "char_keeper"
+        text: "这地方，小姐不该再回来了。"
+      - type: "dialogue"
+        character_id: "char_linwan"
+        emotion: "强撑镇定"
+        text: "如果我姐真在这里留下过东西，那我今天一定要看到。"
+quality_notes:
+  warnings:
+    - "第三章录音内容尚未完整展开，后续场次需要补写。"
+  rewrite_suggestions:
+    - "可进一步强化林晚与姐姐之间的情感牵引。"
+  confidence: 0.82
