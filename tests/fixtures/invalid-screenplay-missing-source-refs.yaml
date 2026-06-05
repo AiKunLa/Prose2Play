@@ -1,0 +1,38 @@
+schema_version: "1.0"
+script:
+  id: "script_invalid_missing_source_refs"
+  title: "缺少来源引用的示例"
+  language: "zh-CN"
+  format: "short_drama"
+source:
+  work_title: "缺少来源引用的示例"
+  language: "zh-CN"
+  chapter_range:
+    start: 1
+    end: 3
+  chapters:
+    - number: 1
+    - number: 2
+    - number: 3
+adaptation:
+  mode: "faithful"
+  strategy_summary: "只用于校验缺少 source_refs 的失败路径。"
+characters:
+  - id: "char_a"
+    name: "角色甲"
+locations:
+  - id: "loc_a"
+    name: "地点甲"
+scenes:
+  - id: "scene_001"
+    number: 1
+    title: "缺少 source_refs"
+    slugline:
+      interiority: "INT"
+      location_id: "loc_a"
+      time_of_day: "DAY"
+    summary: "这个场景故意省略 source_refs。"
+    cast: ["char_a"]
+    content:
+      - type: "action"
+        text: "角色甲走进房间。"
