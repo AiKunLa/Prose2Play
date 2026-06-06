@@ -1,0 +1,10 @@
+* @AiKunLa
+
+/AGENTS.md @AiKunLa
+/package.json @AiKunLa
+/pnpm-workspace.yaml @AiKunLa
+/docs/7-DEVELOPMENT/* @AiKunLa
+/packages/schema/** @AiKunLa
+/packages/domain/** @AiKunLa
+/scripts/** @AiKunLa
+/.github/workflows/** @AiKunLa
