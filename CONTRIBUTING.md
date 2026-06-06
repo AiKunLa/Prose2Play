@@ -24,3 +24,4 @@
 
 1. [docs/7-DEVELOPMENT/git-branching-strategy.md](D:/Code/VSCode_Project/Prose2Play/docs/7-DEVELOPMENT/git-branching-strategy.md)
 2. [docs/7-DEVELOPMENT/commit-and-pr-conventions.md](D:/Code/VSCode_Project/Prose2Play/docs/7-DEVELOPMENT/commit-and-pr-conventions.md)
+3. [docs/7-DEVELOPMENT/git-automation-workflow.md](D:/Code/VSCode_Project/Prose2Play/docs/7-DEVELOPMENT/git-automation-workflow.md)
