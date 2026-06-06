@@ -1,5 +1,9 @@
 {
   "name": "@prose2play/worker",
+  "dependencies": {
+    "@prose2play/config": "workspace:*",
+    "@prose2play/providers": "workspace:*"
+  },
   "private": true,
   "version": "0.1.0"
 }

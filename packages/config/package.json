@@ -1,5 +1,7 @@
 {
   "name": "@prose2play/config",
+  "main": "./dist/index.js",
   "private": true,
+  "types": "./dist/index.d.ts",
   "version": "0.1.0"
 }
