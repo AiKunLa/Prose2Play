@@ -11,3 +11,4 @@ Thumbs.db
 *.log
 *.tsbuildinfo
 .codex-temp/
+apps/web/types/
