@@ -10,3 +10,4 @@ Thumbs.db
 .turbo/
 *.log
 *.tsbuildinfo
+.codex-temp/
