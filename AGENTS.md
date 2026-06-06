@@ -158,6 +158,8 @@
 - `pnpm test`
 - `pnpm schema:check`
 - `pnpm docs:check`
+- `pnpm branch:check`
+- `pnpm commitlint`
 - `pnpm check`
 
 在增加新模块、Schema、配置或流程后，默认应至少运行与改动相关的检查。
