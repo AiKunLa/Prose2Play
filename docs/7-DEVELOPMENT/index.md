@@ -22,5 +22,6 @@
 4. [product-requirements.md](D:/Code/VSCode_Project/Prose2Play/docs/7-DEVELOPMENT/product-requirements.md)
 5. [git-branching-strategy.md](D:/Code/VSCode_Project/Prose2Play/docs/7-DEVELOPMENT/git-branching-strategy.md)
 6. [commit-and-pr-conventions.md](D:/Code/VSCode_Project/Prose2Play/docs/7-DEVELOPMENT/commit-and-pr-conventions.md)
-7. [testing-strategy.md](D:/Code/VSCode_Project/Prose2Play/docs/7-DEVELOPMENT/testing-strategy.md)
-8. [contribution-workflow.md](D:/Code/VSCode_Project/Prose2Play/docs/7-DEVELOPMENT/contribution-workflow.md)
+7. [git-automation-workflow.md](D:/Code/VSCode_Project/Prose2Play/docs/7-DEVELOPMENT/git-automation-workflow.md)
+8. [testing-strategy.md](D:/Code/VSCode_Project/Prose2Play/docs/7-DEVELOPMENT/testing-strategy.md)
+9. [contribution-workflow.md](D:/Code/VSCode_Project/Prose2Play/docs/7-DEVELOPMENT/contribution-workflow.md)
